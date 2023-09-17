@@ -77,8 +77,8 @@ function tweetQuote(){
 
 
 
-twitterBtn.addEventListener('click', tweetQuote);
-newQuoteBtn.addEventListener('click', newQuote);
+twitterBtn?.addEventListener('click', tweetQuote);
+newQuoteBtn?.addEventListener('click', newQuote);
 
 //on Load
 getQuotes();
